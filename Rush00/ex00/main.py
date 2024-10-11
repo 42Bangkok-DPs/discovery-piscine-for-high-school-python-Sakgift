@@ -50,3 +50,13 @@ board_use = [
     ".......",
 ]
 print(checkmate(board_use))  # Should return "Fail"
+
+#Change "FAIL" to "Fail" on 43 and 8 
+#fix#38  return check_rook(row, col, Check="Q") or check_bishop(row, col,Check="Q")
+#fix#24 return false 1 tab to far forward
+#fix#31 Change "R" to Check
+#fix#26 add Check="R" to behind col
+#fix#21 Change "B" to Check
+#fix#16 add Check = "B" to behind col
+#Should add 2kings=error 
+#misunderstanding Main is the board and Checkmate is the code(we made it in 1 file)
